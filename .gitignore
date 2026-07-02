@@ -4,7 +4,7 @@ data/
 # Generated plots
 plots/pottmp/
 *.png
-!output/*.png
+!output/charts/*.png
 
 
 # Byte-compiled / optimized / DLL files

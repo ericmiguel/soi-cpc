@@ -15,8 +15,8 @@ MISSING_VALUE: float = -999.9
 # --- Project paths -------------------------------------------------------------
 
 _PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent.parent
-DATA_DIR: Path = _PROJECT_ROOT / "data"
-OUTPUT_DIR: Path = _PROJECT_ROOT / "output"
+DATA_DIR: Path = _PROJECT_ROOT / "output" / "data"
+OUTPUT_DIR: Path = _PROJECT_ROOT / "output" / "charts"
 CSV_PATH: Path = DATA_DIR / "soi.csv"
 
 # --- Chart styling -------------------------------------------------------------

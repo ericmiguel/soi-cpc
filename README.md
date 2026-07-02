@@ -1,9 +1,8 @@
-# CPC SOI — Southern Oscillation Index
+# SOI
 
-Fetches the standardized SOI from CPC, stores locally as CSV, and
-generates a time-series chart and a monthly heatmap.
+Fetches, processes, and plots the SOI (Southern Oscillation Index) meteorological index from CPC.
 
-![Time series](output/soi_timeseries.png)
+![Time series](output/charts/soi_timeseries.png)
 
 ## Usage
 
@@ -21,9 +20,9 @@ Run again to pick up new monthly data. Only new rows are appended.
 
 | Path | Description |
 |---|---|
-| `data/soi.csv` | Local cache |
-| `output/soi_timeseries.png` | Line chart with area fill |
-| `output/soi_heatmap.png` | Year × month heatmap |
+| `output/data/soi.csv` | Local cache |
+| `output/charts/soi_timeseries.png` | Line chart with area fill |
+| `output/charts/soi_heatmap.png` | Year × month heatmap |
 
 ## Development
 
